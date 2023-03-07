@@ -1,4 +1,0 @@
-</head>
-<body>
-<h1> je suis  <?php if(isset($_COOKIE['prenom'])) {  echo " ".$_COOKIE['prenom'];}?></h1></body>
-</html>
