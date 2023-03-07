@@ -1,0 +1,13 @@
+
+	for each row 
+	declare 
+		PCT NUMBER;
+	begin
+	select sum(pct_temps) intp pct
+	from travail where eid=:new.eid;
+	if pct >=100 then
+		raise_application_error('-20005', age total du temps de travail  pour employe doit être  inférieur à 100);
+
+		end if;
+		end;
+		/
